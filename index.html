@@ -1,6 +1,57 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!doctype html>
+<html lang="en" class="windows">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="content-language" content="en-gb">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" type="text/css" href=/styles.css?621a2a271bbf68c26bfcfb5ba0ffa1895e23a644>
+
+  <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+  <script src="/javascript/os.js" charset="utf-8"></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-62', 'auto');
+  ga('send', 'pageview');
+
+  document.addEventListener('click', function(e) {
+    var target = event.target
+    var downloadAttr = event.target.getAttribute
+      ? event.target.getAttribute('data-download')
+      : undefined
+
+    if(downloadAttr) {
+      ga('send', 'event', 'button', 'download', downloadAttr);
+    }
+  });
+</script>
+
+
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>GitHub Desktop | Simple collaboration from your desktop</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="GitHub Desktop" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Simple collaboration from your desktop" />
+<meta property="og:description" content="Simple collaboration from your desktop" />
+<link rel="canonical" href="https://desktop.github.com/" />
+<meta property="og:url" content="https://desktop.github.com/" />
+<meta property="og:site_name" content="GitHub Desktop" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"https://desktop.github.com/","name":"GitHub Desktop","headline":"GitHub Desktop","description":"Simple collaboration from your desktop","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
     <header>
   <div class="container-new py-6 px-3 text-center">
     <a href="/">
@@ -112,7 +163,7 @@
       <div class="pt-4 pt-md-0 text-center">
         <div class="d-inline-flex flex-items-center">
           <div class="purple-square d-flex flex-justify-center p-2">
-            <img src="/images/octicons/file-media.svg" alt="Icon representing an image file" class="width-fit flex-auto">
+            <img src="/images/octicons/file-media.svg" alt="Icon representing an image file" class="width-fit flex-auto" />
           </div>
         </div>
 
@@ -130,12 +181,12 @@
       <div class="pt-4 pt-md-0 text-center">
         <div class="d-inline-flex flex-items-center">
           <div class="purple-square d-flex flex-justify-center p-2">
-            <img src="/images/octicons/terminal.svg" alt="Icon representing a terminal" class="width-fit flex-auto">
+            <img src="/images/octicons/terminal.svg" alt="Icon representing a terminal" class="width-fit flex-auto" />
           </div>
         </div>
 
         <h4 class="h5 my-2 pt-1 text-white">
-          Extensive editor &amp; shell integrations
+          Extensive editor & shell integrations
         </h4>
         <p class="f4-light mt-2 mb-0">
           Open your favorite editor or shell from the app, or jump back to GitHub Desktop from your shell.
@@ -148,7 +199,7 @@
       <div class="pt-4 pt-md-0 text-center">
         <div class="d-inline-flex flex-items-center">
           <div class="purple-square d-flex flex-justify-center p-2">
-            <img src="/images/octicons/organization.svg" alt="Icon representing organizations" class="width-fit flex-auto">
+            <img src="/images/octicons/organization.svg" alt="Icon representing organizations" class="width-fit flex-auto" />
           </div>
         </div>
 
@@ -170,12 +221,12 @@
 
 <div class="container-new disclaimer-block m-auto text-left col-md-4 p-4 mb-6 rounded-1 box-shadow-large">
   <h3 class="h5 mb-2 text-white">
-    <img src="/images/upgrade/alert-yellow.svg" alt="An alert icon" class="mr-1">
+    <img src="/images/upgrade/alert-yellow.svg" alt="An alert icon" class="mr-1" />
     A note about your existing repos
   </h3>
   <p class="mb-0">
     Your repositories are not automatically imported from Desktop Classic
-    but you can drag &amp; drop the repository folders to continue working with them
+    but you can drag & drop the repository folders to continue working with them
     in Desktop Electron!
   </p>
 </div>
@@ -186,7 +237,7 @@
   <p>
     <a href="https://help.github.com/articles/github-terms-of-service/" class="mr-4">Terms</a>
     <a href="https://help.github.com/articles/github-privacy-statement/" class="mr-4">Privacy Policy</a>
-    <a href="/eula" class="mr-4">EULA</a>
+    <a href="/eula"  class="mr-4">EULA</a>
     <a href="/release-notes/">Release Notes</a>
   </p>
 </div>
@@ -195,7 +246,5 @@
   <p class="copyright">© 2018 GitHub, Inc. All rights reserved.</p>
 </footer>
 
-  
-
-<span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; background-image: url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@2x.png&quot;); background-size: 100px 25px; opacity: 0.9; cursor: pointer; top: 1252px; left: 1006.67px;"></span><span style="border-radius: 3px !important; text-indent: 20px !important; width: auto !important; padding: 0px 4px 0px 0px !important; text-align: center !important; font: bold 11px/20px &quot;Helvetica Neue&quot;, Helvetica, sans-serif !important; color: rgb(255, 255, 255) !important; background: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==&quot;) 3px 50% / 14px 14px no-repeat rgb(230, 0, 35) !important; position: absolute !important; opacity: 1 !important; z-index: 8675309 !important; display: none; cursor: pointer !important; border: none !important; -webkit-font-smoothing: antialiased !important; top: 632px; left: 162px;">Save</span><span style="border-radius: 12px; width: 24px !important; height: 24px !important; background: url(&quot;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxtYXNrIGlkPSJtIj48cmVjdCBmaWxsPSIjZmZmIiB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHJ4PSI2IiByeT0iNiIvPjxyZWN0IGZpbGw9IiMwMDAiIHg9IjUiIHk9IjUiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgcng9IjEiIHJ5PSIxIi8+PHJlY3QgZmlsbD0iIzAwMCIgeD0iMTAiIHk9IjAiIHdpZHRoPSI0IiBoZWlnaHQ9IjI0Ii8+PHJlY3QgZmlsbD0iIzAwMCIgeD0iMCIgeT0iMTAiIHdpZHRoPSIyNCIgaGVpZ2h0PSI0Ii8+PC9tYXNrPjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNmZmYiIG1hc2s9InVybCgjbSkiLz48L3N2Zz4=&quot;) 50% 50% / 14px 14px no-repeat rgba(0, 0, 0, 0.4) !important; position: absolute !important; opacity: 1 !important; z-index: 8675309 !important; display: none; cursor: pointer !important; border: none !important; top: 630px; left: 1080px;"></span></body>
+  </body>
 </html>
